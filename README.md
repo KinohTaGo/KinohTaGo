@@ -10,6 +10,13 @@ falsifiable.**
 
 ### Bugs I've reported upstream
 
+- [bats-core/bats-core#1233](https://github.com/bats-core/bats-core/issues/1233) —
+  tests with non-ASCII names are silently never executed under a UTF-8 locale; the TAP
+  plan still counts them, so a suite passes by not running. Found 85 such tests in my own
+  suite
+- [anthropics/claude-code#83326](https://github.com/anthropics/claude-code/issues/83326) —
+  the shadowed `grep` silently skips gitignored files, so a secret scan reports clean
+  while missing `.env` and `*.log` — and exits 0
 - [anthropics/claude-code#78788](https://github.com/anthropics/claude-code/issues/78788) —
   ESC keypresses intermittently dropped under load; split escape sequences leak literal
   fragments into the prompt (tmux + Terminal.app)
