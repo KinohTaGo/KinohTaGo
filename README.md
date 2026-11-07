@@ -17,9 +17,10 @@ falsifiable.**
 | | What it is | Status |
 |---|---|---|
 | **[bats-ghost-test-check](https://github.com/KinohTaGo/bats-ghost-test-check)** | Two checks that find bats tests which are declared and counted, but never run | v0.1.0 · the root cause I reported was fixed upstream (2026-09-12) |
-| **[staleness-resistant-docs](https://github.com/KinohTaGo/staleness-resistant-docs)** | A pattern and a checker: every factual claim in project docs carries the date it was measured and the command to re-measure it | template + checker script |
+| **[staleness-resistant-docs](https://github.com/KinohTaGo/staleness-resistant-docs)** | A pattern and a checker: every factual claim in project docs carries the date it was measured and the command to re-measure it | v0.2.0 · checker with tests |
+| **[agent-cleanroom](https://github.com/KinohTaGo/agent-cleanroom)** | Reproducible, network-isolated runs of coding agents against local LLMs or APIs, with a verifiable record of every run | 0.1.0, pre-release — published early so the design can be read |
 | **[claude-code-internals](https://github.com/KinohTaGo/claude-code-internals)** | Field notes on Claude Code CLI behaviour, each tagged with the version it was verified against | documentation |
-| **The infrastructure** ([below](#the-infrastructure-behind-it)) | What the repositories above were extracted from | private — described here, code not published |
+| **The infrastructure** ([below](#the-infrastructure-behind-it)) | Where the repositories above came from | private — described here, code not published |
 
 ### The infrastructure behind it
 
